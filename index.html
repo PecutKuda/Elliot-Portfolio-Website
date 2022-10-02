@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Elliot Lie Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Elliot</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/elliot-lie-75a0731b1" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/elliot_lie/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://github.com/PecutKuda" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class="home__blob-img" x="12" y="18" href="assets/img/profile.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Elliot</h1>
+                            <h3 class="home__subtitle">Programmer</h3>
+                            <p class="home__description">Computer science student who experienced in web development, SQL, problem solving, and OOP in Java</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container contianer grid">
+                    <img src="assets/img/profile.png" class="about__img" alt="about image">
+                    <div class="about__data">
+                        <p class="about__description">
+                            20 years old computer science student at Bina Nusantara University who loves to travel and culinary.
+                            <br>Life motto: "Part Time Student, Full Time Learner"
+                        </p>
+                        
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">5th</span>
+                                <span class="about__info-name">Semester <br> student</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">3.83</span>
+                                <span class="about__info-name">GPA</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">20+</span>
+                                <span class="about__info-name">Completed <br> project</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Elliot-Cv.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title" id="skills">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+                
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILL 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                            
+                                <div>
+                                    <h1 class="skills__title">Programming</h1>
+                                    <span class="skills__subtitle">Skills that related to programming</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_c"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_sql"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_java"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <span class="skills__titles-logo">
+                                            <i class="uil uil-brain"></i>
+                                            <h3 class="skills__name">Problem Solving</h3>
+                                        </span>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_ps"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <span class="skills__titles-logo">
+                                            <i class="uil uil-html5"></i>
+                                            <h3 class="skills__name">HTML</h3>
+                                        </span>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <span class="skills__titles-logo">
+                                            <i class="uil uil-css3-simple"></i>
+                                            <h3 class="skills__name">CSS</h3>
+                                        </span>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <span class="skills__titles-logo">
+                                            <i class="uil uil-java-script"></i>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                        </span>
+                                        <span class="skills__number">45%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">FireBase,  ExpressJs,  NodeJs,  ReactJs,  Laravel,  PHP</h3>
+                                        <span class="skills__number">currently on learning</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILL 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-user-arrows skills__icon"></i>
+                            
+                                <div>
+                                    <h1 class="skills__title">SoftSkills</h1>
+                                    <span class="skills__subtitle">Soft skills</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Communication</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_commun"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Teamwork</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_team"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Time Management</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_time"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Leadership</h3>
+                                        <span class="skills__number">65%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills_lead"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Some of projects and achievements</span>
+            
+                <div class="portfolio__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                         <!--==================== PORTFOLIO 1====================-->
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/porto1.png" alt="porto1 preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Letflix Website</h3>
+                                <p class="portfolio__description">Website adaptable to all devices,
+                                    with animated interactions and registrate validation. developed using HTML, CSS, and JavaScript
+                                </p>
+                                <a href="https://pecutkuda.github.io/LetFlix_Website/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/PecutKuda/LetFlix_Website" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/porto2.png" alt="porto2 preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Vaccine Data Management GUI</h3>
+                                <p class="portfolio__description">This GUI based program developed using java with some design pattern regulations
+                                     which can connect to database 'vaccinedb' using XAMPP.
+                                </p>
+                                <a href="https://github.com/PecutKuda/JavaGUI_VaccineProject" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                         <!--==================== PORTFOLIO 3====================-->
+                         <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/porto3.png" alt="porto3 preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">CovInfo Website</h3>
+                                <p class="portfolio__description">This hosted website has been developed using HTML, CSS, Bootstrap, JavaScript, along side with Firebase. 
+                                    CovInfo's features: registrate, login, shoping cart, and order history.
+                                </p>
+                                <a href="https://covinfo-1da58.web.app/index.html" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/PecutKuda/CovInfo" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 4====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/porto4.png" alt="porto4 preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">To Do List</h3>
+                                <p class="portfolio__description">To Do List website with routing implementation and
+                                     developed using ExpressJs, NodeJs, HTML, CSS, alongside with Nodemon.
+                                </p>
+                                <a href="https://github.com/PecutKuda/todolist-v1" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 5====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/porto5.png" alt="porto5 preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Simon Game</h3>
+                                <p class="portfolio__description">Simple and interactive game which developed using HTML, CSS, and JavaScript.
+                                </p>
+                                <a href="https://pecutkuda.github.io/Simon-Game/" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                                <a href="https://github.com/PecutKuda/Simon-Game" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Source Code
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 6====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/porto6.png" alt="porto6 preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">HackerRank Badges and Certificate</h3>
+                                <p class="portfolio__description">Badges and certification that I've earned so far in HackerRank.
+                                    Most of the solutions were submitted in C language for "Problem Solving". 
+                                </p>
+                                <a href="https://www.hackerrank.com/PecutKuda" target="_blank" class="button button--flex button--small portfolio__button">
+                                    Visit My HackerRank Profile
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 7====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/FP-certif.png" alt="FP certificate preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Freshmen Partner for B25</h3>
+                                <p class="portfolio__description"> 
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 8====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/FL-certif.png" alt="FL certificate preview" class="portfolio__img">
+                            
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Freshmen Leader for B25</h3>
+                                <p class="portfolio__description"> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+62 8116688087</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope-alt contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Mail Me</h3>
+                                <span class="contact__subtitle">elliot.arifin@binus.ac.id</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Elliot</h1>
+                        <span class="footer__subtitle">Computer Science Student at Binus University
+                        </span>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; 2022. All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
